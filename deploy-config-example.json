@@ -1,0 +1,7 @@
+{
+    "Bucket": "bucket-name",
+    "Region": "ap-nanjing",
+    "SecretId": "****",
+    "SecretKey": "****",
+    "Dist": "public"
+}

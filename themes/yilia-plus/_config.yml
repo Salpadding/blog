@@ -83,10 +83,10 @@ baidu_analytics: ''
 google_analytics: ''
 
 # 网站图标
-favicon: https://blog-1257068584.cos.ap-nanjing.myqcloud.com/bitbug_favicon.ico
+favicon: https://static-1259772394.cos.ap-nanjing.myqcloud.com/bitbug_favicon.ico
 
 # 你的头像url
-avatar: https://blog-1257068584.cos.ap-nanjing.myqcloud.com/gXy0GypT_400x400.png
+avatar: https://static-1259772394.cos.ap-nanjing.myqcloud.com/gXy0GypT_400x400.png
 
 # 是否开启分享
 share_jia: true
