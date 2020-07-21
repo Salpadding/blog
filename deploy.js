@@ -10,6 +10,7 @@ const cos = new COS({
     SecretKey: config.SecretKey
 });
 
+// get files recursivly 
 function getFilesSync(ret, filePath) {
     const stat = fs.statSync(filePath)
     if (stat.isDirectory()) {
@@ -37,7 +38,7 @@ function main() {
                 Region: config.Region,
                 Key: key,
                 Body: fs.createReadStream(f)
-            }, (err, data) => {
+            }, (err) => {
                 if (err) {
                     reject(err)
                     return
