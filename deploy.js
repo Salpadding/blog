@@ -52,7 +52,7 @@ function main() {
     })
 
     Promise
-    .all(tasks)
+    .race(tasks)
     .then(() => console.log('\n'))
     .catch(console.error)
 }
